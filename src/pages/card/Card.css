@@ -1,0 +1,33 @@
+.square_div{
+    height: 100vh;
+    background: #fff;
+    box-shadow: 0 0 5px #666 inset;
+    text-align: center;
+}
+.square_div .square_object {
+    width: 40%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    height: 100px;
+    margin-left: 30%;
+    border: 1px solid #04A6FB;
+    background: #eee;
+}
+
+.element {
+    background: #eee;
+    border-radius: 10px;
+    padding: 5%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.section {
+    background: #ffde5d;
+    border-radius: 10px;
+    padding: 5%;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

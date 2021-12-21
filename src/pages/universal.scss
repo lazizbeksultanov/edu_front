@@ -1,0 +1,341 @@
+.body {
+  font-family: Nunito, sans-serif;
+}
+
+.table-style {
+  width: auto;
+
+  tbody {
+    font-size: 15px;
+    font-weight: normal;
+    font-family: Nunito, sans-serif !important;
+
+    .table-tr {
+      position: relative !important;
+      width: 100%;
+      background-color: white;
+      color: #313E47;
+      border-bottom: 10px solid #F9FAFB;
+      border-top: 10px solid #F9FAFB;
+
+      .table-icon {
+        background-color: transparent;
+        border: none;
+        box-shadow: none;
+        outline: none;
+      }
+    }
+
+  }
+}
+
+.table-icon {
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
+  outline: none;
+
+  &:hover {
+    background-color: #f2f2f2;
+  }
+}
+
+.course-select-header {
+  h3 {
+    font-weight: lighter;
+    display: inline-block;
+  }
+
+  span {
+    font-size: 16px;
+    color: #313E47;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: lighter;
+    font-family: "Liberation Mono", sans-serif;
+  }
+
+}
+
+.course-category {
+  width: 23%;
+
+  h4 {
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: none;
+
+    }
+
+
+  }
+
+  &:hover {
+    box-shadow: 1px 1px 5px 2px rgba(0, 0, 0, 0.1);
+  }
+
+  p {
+    color: #969191;
+  }
+}
+
+.courses-style {
+  width: 23%;
+  font-family: Nunito, sans-serif !important;
+
+  &:hover {
+    box-shadow: 1px 1px 5px 2px rgba(0, 0, 0, 0.1);
+  }
+
+  p {
+    color: #969191;
+    font-size: 14px;
+  }
+}
+
+.category-courses {
+  width: 35%;
+  box-shadow: 0.5px .5px 2px 1px rgba(0, 0, 0, 0.05);
+
+  &:hover {
+    box-shadow: 1px 1px 3px 1.5px rgba(0, 0, 0, 0.1);
+  }
+
+  h5 {
+    font-size: 16px;
+  }
+
+  p {
+    color: #969191;
+    font-size: 13px;
+  }
+}
+
+.add-button {
+  border-radius: 20px;
+  font-weight: lighter;
+  background-color: #F67C00;
+  border: none;
+}
+
+.add-button:hover, .add-button:focus, .add-button:active{
+  background-color: #F67C00!important;
+  box-shadow: none!important;
+}
+.select-student-style_buttonsGroup{
+  margin-left: 240px;
+  margin-top: 14px;
+}
+
+.select-student-style {
+  font-family: Nunito, sans-serif;
+  box-shadow: 1px 1px 5px 2px rgba(0, 0, 0, 0.1);
+
+  .button-block {
+    .table-icon {
+      border: 1px solid #cccccc;
+      border-radius: 100%;
+      background-color: white;
+      width: 40px;
+      padding: 6px;
+      margin: 1px;
+
+      .button-icon {
+        width: 30px !important;
+        height: 30px !important;
+      }
+    }
+    .table-icon:hover, .table-icon:active, .table-icon:focus{
+      background-color: white!important;
+      border: 1px solid #cccccc;
+      box-shadow: none!important;
+    }
+  }
+
+  hgroup {
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+    p {
+      font-size: 14px;
+      letter-spacing: .8px;
+    }
+
+    small {
+      font-size: 12px;
+      letter-spacing: .8px;
+    }
+  }
+}
+
+#allModalStyle {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  right: 0 !important;
+  position: absolute;
+  border: none !important;
+
+  .modal-content {
+    border: none !important;
+    background: #ffffff;
+    border-radius: 0;
+    top: 0;
+    right: 0;
+    min-height: 100vh !important;
+    max-width: 30vw !important;
+    width: 30vw;
+    font-family: Nunito, sans-serif;
+
+    .modal-header {
+      border: none;
+      border-bottom: 1px solid #cccccc;
+
+      .modal-title {
+        text-align: left;
+        padding-left: 16px;
+        font-size: 24px;
+      }
+
+      .close {
+        display: none;
+      }
+    }
+
+    .modal-form {
+      min-height: 20vh;
+      font-size: 14px !important;
+
+      .form-control {
+        border-radius: 0;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        height: 40px;
+      }
+
+      .form-check {
+        display: inline;
+        margin-right: 20px;
+      }
+
+      .pay-form-style {
+        .form-check {
+          display: block;
+          margin-right: 20px;
+        }
+      }
+
+      .form-group {
+        padding: 0px 20px 0px 15px;
+
+        //input,
+        //select {
+        //  background-color: white;
+        //  height: 50px;
+        //  width: 100%;
+        //}
+      }
+
+      .basic-multi-select {
+        padding: 0 45px 20px 30px;
+        margin-top: 10px;
+
+        .select__control {
+          background-color: transparent;
+        }
+
+        .select__value-container {
+          height: 50px;
+        }
+      }
+    }
+
+    .modal-footer {
+      border: none;
+      margin-right: 14px;
+      padding: 20px 30px 20px 30px;
+    }
+  }
+}
+
+.dashboard-style {
+  font-family: Nunito, sans-serif;
+
+  .col-md-3 {
+    padding: 5px;
+
+    .card {
+      width: 100% !important;
+      background-color: white;
+      height: 200px;
+      border: 2.5px solid transparent;
+      padding-top: 40px;
+      padding-bottom: 40px;
+
+      hgroup {
+        text-align: center;
+      }
+    }
+  }
+}
+
+//select group page css
+.student-list {
+  font-size: 13px;
+  font-family: Nunito, sans-serif;
+  border-radius: 5px;
+
+  .more-button {
+    background-color: #EE8033;
+    border: none;
+    //padding: 3px;
+    //padding-left: 10px;
+    //padding-right: 10px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+  }
+}
+
+
+//select student page css
+.student-group-block {
+  font-size: 13px;
+  font-family: Nunito, sans-serif;
+  box-shadow: 1px 1px 5px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  .group-name {
+    background-color: #cccccc;
+    border-radius: 3px;
+    padding: 5px;
+  }
+
+}
+
+// MUROJAATLAR SAHIFASI SCCS
+.appeal-button {
+  border: 1px solid #cccccc;
+  margin-top: 0 !important;
+  border-radius: 0;
+  margin-bottom: 0 !important;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: Nunito, sans-serif !important;
+  letter-spacing: 1px;
+  font-size: 18px;
+  background-color: white;
+}
+
+.appeal-button-active {
+  color: #FFFFFF;
+  background-color: #04A6FB;
+  border: 1px solid #04A6FB;
+}
+
+.appeal-drag {
+  cursor: pointer;
+}
